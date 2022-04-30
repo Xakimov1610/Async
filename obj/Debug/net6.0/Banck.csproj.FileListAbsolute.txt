@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/Banck/bin/Debug/net6.0/Banck
+/Users/xakimov/Dev/dotnet-backend/Banck/bin/Debug/net6.0/Banck.deps.json
+/Users/xakimov/Dev/dotnet-backend/Banck/bin/Debug/net6.0/Banck.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/Banck/bin/Debug/net6.0/Banck.dll
+/Users/xakimov/Dev/dotnet-backend/Banck/bin/Debug/net6.0/Banck.pdb
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.dll
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/refint/Banck.dll
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.pdb
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/Banck.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/Banck/obj/Debug/net6.0/ref/Banck.dll
