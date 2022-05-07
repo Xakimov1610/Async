@@ -17,10 +17,10 @@ public class Tuxum
     {
         System.Console.WriteLine("TuxumniQozongaSolindi ....");
     }
-    public static async void Kutish()
+    public static async Task Kutish()
     {
-        System.Console.WriteLine(" Tuxum Kutilyapti .....");
-        await Task.Delay(200);
+        // System.Console.WriteLine(" Tuxum Kutilyapti .....");
+        await Task.Delay(8000);
         System.Console.WriteLine("Tuxum Tayyor .....!");
     }
     

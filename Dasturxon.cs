@@ -10,14 +10,29 @@ public class Dasturxon
         System.Console.WriteLine("Non qo'yildi");
     }
 
-    public static async void ChoyQoyish()
+    public static async void ChoyQoyish(Task choy, Task tuxum)
     {
-        Choy.Kutish();
-        System.Console.WriteLine("Choy dasturhonda");
+        
+       
+        var dasturxon = new List<Task> { choy, tuxum };
+
+            while(dasturxon.Count > 0)
+            {
+                Task finish = await Task.WhenAny(dasturxon);
+                if(finish == choy)
+                {
+                     System.Console.WriteLine("Choy dasturhonda");
+                }
+                else if(finish == tuxum)
+                {
+                    System.Console.WriteLine("Tuxum Dasturxonda");
+                }
+                dasturxon.Remove(finish);
+            }
     }
-    public static void TuxumQoyish()
-    {
-        System.Console.WriteLine("Tuxum Dasturxonda");
-    }
+    // public static void TuxumQoyish()
+    // {
+        
+    // }
     
 }

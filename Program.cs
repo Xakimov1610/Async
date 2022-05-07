@@ -11,18 +11,29 @@ namespace Banck;
             Choy.GazYoqish();
             Choy.ChynakToldirish();
             Choy.GazgaQoyish();
-            Choy.Kutish();
-
+            // Choy.Kutish();
+            
             Tuxum.GazYoqish();
             Tuxum.TovaniQizdirish();
             Tuxum.TuxumniQozongaSolish();
-            Tuxum.Kutish();
+            // Tuxum.Kutish();
+            
+            var choy = Choy.Kutish();
+            var tuxum = Tuxum.Kutish();
 
             Dasturxon.DasturxonYozish();
             Dasturxon.NonQoyish();
-            Dasturxon.ChoyQoyish();
-            Dasturxon.TuxumQoyish();
+            Dasturxon.ChoyQoyish(choy,tuxum);
+            // // public static async Dasturxon()
+            
+            // // var dasturxon = new List<Task> {choy, tuxum};
 
+            // // while(dasturxon.Count > 0)
+            // // {
+            // //     Task finish = await Task.WhenAny(choy, tuxum);
+
+            // // }
+            
 
             Console.ReadLine();
             
